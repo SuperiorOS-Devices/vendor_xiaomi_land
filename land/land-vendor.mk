@@ -1541,7 +1541,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     ims \
     uceShimService \
-    CNEService \
     qcrilmsgtunnel \
     TimeService \
     colorservice \
