@@ -1549,3 +1549,24 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
+
+ # Camera fixes
+PRODUCT_COPY_FILES += \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.common@1.0.so:system/lib/android.hardware.camera.common@1.0.so \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.device@1.0.so:system/lib/android.hardware.camera.device@1.0.so \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.device@3.2.so:system/lib/android.hardware.camera.device@3.2.so \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.device@3.3.so:system/lib/android.hardware.camera.device@3.3.so \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.device@3.4.so:system/lib/android.hardware.camera.device@3.4.so \
+ vendor/xiaomi/land/proprietary/lib/android.hardware.camera.provider@2.4.so:system/lib/android.hardware.camera.provider@2.4.so \
+ vendor/xiaomi/land/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+ vendor/xiaomi/land/proprietary/lib/libcamera_metadata.so:system/lib/libcamera_metadata.so \
+ vendor/xiaomi/land/proprietary/lib/libcamera2ndk.so:system/lib/libcamera2ndk.so \
+ vendor/xiaomi/land/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.common@1.0.so:system/lib64/android.hardware.camera.common@1.0.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.device@1.0.so:system/lib64/android.hardware.camera.device@1.0.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.device@3.2.so:system/lib64/android.hardware.camera.device@3.2.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.device@3.3.so:system/lib64/android.hardware.camera.device@3.3.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.device@3.4.so:system/lib64/android.hardware.camera.device@3.4.so \
+ vendor/xiaomi/land/proprietary/lib64/android.hardware.camera.provider@2.4.so:system/lib64/android.hardware.camera.provider@2.4.so \
+ vendor/xiaomi/land/proprietary/lib64/libkeystore_binder.so:system/lib64/libkeystore_binder.so \
+ vendor/xiaomi/land/proprietary/lib64/libkeystore-engine.so:system/lib64/libkeystore-engine.so
